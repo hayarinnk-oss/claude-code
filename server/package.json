@@ -1,0 +1,17 @@
+{
+  "name": "property-value-server",
+  "version": "1.0.0",
+  "description": "不動産資産価値レポートアプリ - APIサーバー(国交省 不動産情報ライブラリAPI / Google Geocoding APIのプロキシ)",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
